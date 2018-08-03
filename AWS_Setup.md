@@ -54,27 +54,41 @@ Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and,
 
 7. The selected image requires at least 10 Gb. Thinking the dataset that you likely will use select _30 Gb_ and click _Next_.
 
-![Instance Select](/assets/AWS_Setup_F_18/009_Storage.png)
+![Storage](/assets/AWS_Setup_F_18/009_Storage.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
 
 8. Click _Next_.
 
-![Instance Select](/assets/AWS_Setup_F_18/011_Security.png)
+![Security](/assets/AWS_Setup_F_18/011_Security.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
 
 8. Click _Launch_.
 
-![Instance Select](/assets/AWS_Setup_F_18/012_Review.png)
+![Review](/assets/AWS_Setup_F_18/012_Review.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
-9. Click _Create a new key pair_.
+9. Click _Create a new key pair_, give a meaningful name and, click _Download_ button. You can't connect your instances without your _pem_ file.
 
-![Instance Select](/assets/AWS_Setup_F_18/012_Review.png =250x)
+![PEM](/assets/AWS_Setup_F_18/013_Pem.png)
+
+<p align='center'>-------------------------------------------------------</p>
+
+
+10. Go to “Instances” page on the left side. Wait until it says “Status Checks : 2/2 checks passed” to connect.
+
+![PEM](/assets/AWS_Setup_F_18/014_Start.png)
+
+<p align='center'>-------------------------------------------------------</p>
+
+
+11. When you click _Connect_ button a window pops-up. Open a _Terminal_ window. 
+
+![PEM](/assets/AWS_Setup_F_18/014_Start.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
