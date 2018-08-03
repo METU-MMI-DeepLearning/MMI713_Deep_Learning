@@ -74,7 +74,7 @@ Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and,
 
 9. Click _Create a new key pair_.
 
-![Instance Select](/assets/AWS_Setup_F_18/012_Review.png) { width: %50; height: %50}
+![Instance Select](/assets/AWS_Setup_F_18/012_Review.png){:height="%50" width="%50"}
 
 <p align='center'>-------------------------------------------------------</p>
 
