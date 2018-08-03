@@ -8,13 +8,20 @@
 
 <p align='center'>-------------------------------------------------------</p>
 
+
 2. While in _Services_ page click EC2 link.
 
 ![EC2](/assets/AWS_Setup_F_18/002_Open_EC2.png?raw=true)
 
+<p align='center'>-------------------------------------------------------</p>
+
+
 3. Click _Instances_ from _Dashboard_ and click _Launch Instance_ button.
 
 ![Launch Instance](/assets/AWS_Setup_F_18/003_Instances.png?raw=true)
+
+<p align='center'>-------------------------------------------------------</p>
+
 
 4. First you should choose an AMI (software package). During the semester we will use “AISE Tensorflow 1.7 CUDA Python 3.6 CPU Notebook”. 
 
@@ -28,14 +35,48 @@ Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and,
 
 ![Continue](/assets/AWS_Setup_F_18/007_AISE_Image_Continue.png?raw=true)
 
+<p align='center'>-------------------------------------------------------</p>
+
+
 5. Now you should select instance type (hardware infrastructure). _t2.micro_ is eligible for free tier. Select _t2.micro_ and, click _Next_.
 
 ![Instance Select](/assets/AWS_Setup_F_18/008_Instance_Select.png)
 
-6. The selected image requires at least 10 Gb. Thinking the dataset that you likely will use select _30 Gb_ and click _Next_.
+<p align='center'>-------------------------------------------------------</p>
+
+
+6. Click _Next_.
+
+![Instance Config](/assets/AWS_Setup_F_18/010_Configure_Instance.png)
+
+<p align='center'>-------------------------------------------------------</p>
+
+
+7. The selected image requires at least 10 Gb. Thinking the dataset that you likely will use select _30 Gb_ and click _Next_.
 
 ![Instance Select](/assets/AWS_Setup_F_18/009_Storage.png)
 
+<p align='center'>-------------------------------------------------------</p>
+
+
+8. Click _Next_.
+
+![Instance Select](/assets/AWS_Setup_F_18/011_Security.png)
+
+<p align='center'>-------------------------------------------------------</p>
+
+
+8. Click _Launch_.
+
+![Instance Select](/assets/AWS_Setup_F_18/012_Review.png)
+
+<p align='center'>-------------------------------------------------------</p>
+
+9. Click _Create a new key pair_.
+
+![Instance Select](/assets/AWS_Setup_F_18/012_Review.png) { width: %50; height: %50}
+
+<p align='center'>-------------------------------------------------------</p>
 
 
 
