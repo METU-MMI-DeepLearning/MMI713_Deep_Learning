@@ -102,7 +102,7 @@ Same instructions but change the 4th and 5th with the instructions as metioned h
 
 4. First you should choose an AMI (software package). During the semester we will use “AISE Tensorflow 1.5 Python 3.6 CUDA 9 Notebook”. 
 
-![AMI Select](/assets/AWS_Setup_F_18/004_Instances.png?raw=true)
+![AMI Select](/assets/AWS_Setup_F_18/004_Instances_2.png?raw=true)
 
 Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and, click _Continue_ from the pop-up window.
 
