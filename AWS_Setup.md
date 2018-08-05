@@ -23,7 +23,7 @@
 <p align='center'>-------------------------------------------------------</p>
 
 
-4. First you should choose an AMI (software package). During the semester we will use “AISE Tensorflow 1.7 CUDA Python 3.6 CPU Notebook”. 
+4. First you should choose an AMI (software package). During the semester we will use “AISE Tensorflow 1.7 Python 3.6 CPU Notebook”. 
 
 ![AMI Select](/assets/AWS_Setup_F_18/004_Instances_2.png?raw=true)
 
@@ -98,4 +98,25 @@ Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and,
 
 ## Launching GPU Image
 
-D
+Same instructions but change the 4th and 5th with the instructions as metioned hereinafter.
+
+4. First you should choose an AMI (software package). During the semester we will use “AISE Tensorflow 1.5 Python 3.6 CUDA 9 Notebook”. 
+
+![AMI Select](/assets/AWS_Setup_F_18/004_Instances.png?raw=true)
+
+Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and, click _Continue_ from the pop-up window.
+
+![Image Search_GPU](/assets/AWS_Setup_F_18/005_AISE_IMage_Search_gpu.png?raw=true)
+
+![Image Select_GPU](/assets/AWS_Setup_F_18/006_AISE_Image_select_gpu.png?raw=true)
+
+![Continue_GPU](/assets/AWS_Setup_F_18/007_AISE_Image_Continue_gpu.png?raw=true)
+
+<p align='center'>-------------------------------------------------------</p>
+
+
+5. Now you should select instance type (hardware infrastructure). _g2.2xlarge_. Select _g2.2xlarge_ and, click _Next_.
+
+![Instance Select_GPU](/assets/AWS_Setup_F_18/008_Instance_Select_gpu.png)
+
+<p align='center'>-------------------------------------------------------</p>
