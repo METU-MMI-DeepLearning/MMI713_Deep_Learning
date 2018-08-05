@@ -86,13 +86,15 @@ Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and,
 <p align='center'>-------------------------------------------------------</p>
 
 
-11. When you click _Connect_ button a window pops-up. Open a _Terminal_ window. 
+11. When you click _Connect_ button a window pops-up and shows the instructions. If an error occurs  when you copy, paste and, run the ssh connection command, change the username with "ec2-user then try again."
 
-![PEM](/assets/AWS_Setup_F_18/014_Start.png)
+![PEM](/assets/AWS_Setup_F_18/015_Connect.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
+12. Find the _jupyter_config.py_ which is located in _/jet/etc/jupyter_ directory. Set a password that following the instructions using the link "https://blgnksy.github.io/2018/07/09/docker-jupyter-config.html".  
 
+<p align='center'>-------------------------------------------------------</p>
 
 ## Launching GPU Image
 
