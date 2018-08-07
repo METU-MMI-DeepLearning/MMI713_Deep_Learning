@@ -4,7 +4,7 @@ AWS Setup instructions can be found [AWS_Setup_F18](/AWS_Setup.md) for both CPU 
 
 
 - [x] AWS Setup
-- [ ] Lab 1
+- [x] Lab 1
 - [ ] Assignment 1
 - [ ] Assignment 2
 - [ ] Assignment 3
