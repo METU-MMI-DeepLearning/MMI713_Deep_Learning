@@ -86,13 +86,25 @@ Search AMI, click _Select_ from _Dashboard_, click _Launch Instance_ button and,
 <p align='center'>-------------------------------------------------------</p>
 
 
-11. When you click _Connect_ button a window pops-up and shows the instructions. If an error occurs  when you copy, paste and, run the ssh connection command, change the username with "ec2-user then try again."
+11. When you click _Connect_ button a window pops-up and shows the instructions. If an error occurs  when you copy, paste and, run the ssh connection command, change the username with "ec2-user" then try again.
 
 ![PEM](/assets/AWS_Setup_F_18/015_Connect.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
-12. Find the _jupyter_config.py_ which is located in _/jet/etc/jupyter_ directory. Set a password that following the instructions using the link "https://blgnksy.github.io/2018/07/09/docker-jupyter-config.html".  
+12. You will need your _Instance ID_ to use instead of Jupyter server password. You can find your _Instance ID_  in "Instances" page. 
+
+![PEM](/assets/AWS_Setup_F_18/014_Start.png)
+
+<p align='center'>-------------------------------------------------------</p>
+
+13. (Optional - If you want to change your password.)Find the _jupyter_config.py_ which is located in _/jet/etc/jupyter_ directory. Set a password that following the instructions using the link "https://blgnksy.github.io/2018/07/09/docker-jupyter-config.html".  
+
+<p align='center'>-------------------------------------------------------</p>
+
+14. In order to access your Jupiter notebooks open a new browser tab and write your AWS public IP followed by ":8888". You will see something similar to the picture located below. Your password is your _Instance Id_
+
+![PEM](/assets/AWS_Setup_F_18/017_jupy.png)
 
 <p align='center'>-------------------------------------------------------</p>
 
