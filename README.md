@@ -1,4 +1,4 @@
-# DEEP LEARNING: METHODS AND APPLICATIONS
+# MMI 713 - DEEP LEARNING: METHODS AND APPLICATIONS
 
 AWS Setup instructions can be found [AWS_Setup_F18](/AWS_Setup.md) for both CPU and GPU instances. You should create an AWS account before setup operation.
 
